@@ -49,17 +49,17 @@ table {
     border: 1px solid black;
 }
 
-#section{
+.section{
     margin: 0 auto;
     width: 50%;
 }
 
-#section_entry{
+.section_entry{
     display: flex;
     justify-content: space-between;
 }
 
-#section_description{
+.section_description{
     text-align: left;
 }
 
