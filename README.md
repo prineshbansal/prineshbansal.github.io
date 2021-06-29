@@ -1,4 +1,3 @@
-# PersonalWebsite-PrineshBansal
-Currently hosting a website created for CS5610
+My Github Pages Website
 
 More to Come

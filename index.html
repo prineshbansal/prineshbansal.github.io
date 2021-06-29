@@ -2,167 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prinesh Bansal Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/mystyle.css">
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Prinesh Bansal</title>
+    <meta name="description" content="CS grad @ Northeastern University">
+    <meta name="google-site-verification" content="PmvmEOFzIBm6YclW_LddsKdp5nftamxbbHIyr1DhGkc" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
-<body>
-    <div id="navbar">
-        <a href="#">Top</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
+<body style="background: var(--bs-light); padding-top: 5%;">
+    <div class="container text-center d-md-flex justify-content-md-center" data-aos="fade-down"><img class="rounded-circle" data-aos="fade-down" src="assets/img/resume-profile-1.jpg" width="25%" height="25%" alt="profile-pic"></div>
+    <div class="container" style="border-style: none;">
+        <div class="card" style="border-style: none;">
+            <div class="card-body text-center" style="border-style: none;background: var(--bs-light);">
+                <h1 class="card-title" data-aos="fade-down">Prinesh Bansal</h1>
+                <p class="card-text" data-aos="fade-down">Software Engineer | CS @ Northeastern | Graduating Fall '21</p>
+                
+                <a class="card-link" data-aos="fade-down" href="https://github.com/prineshbansal">github</a>
+                <a class="card-link" data-aos="fade-down" href="https://www.linkedin.com/in/bansal-prinesh">linkedin</a>
+                <a class="card-link" data-aos="fade-down" href="assets/doc/Prinesh Bansal - Resume.pdf">resume</a>
+            </div>
+        </div>
     </div>
-
-    <div id="name">
-        <h1>Prinesh Bansal</h1>
-    </div>
-
-    <div id="typewriter">
-        <!--animation for typewriter goes here-->
-        <h3 id="typewriter-h3"></h3>
-    </div>
-
-    <div id="external_links">
-        <a href="https://github.com/prineshbansal" target="_blank">
-            <img src="./assets/svg/github.svg" width="30rem" height="30rem">
-        </a>
-        <a href="https://www.linkedin.com/in/bansal-prinesh" target="_blank">
-            <img src="./assets/svg/linkedin.svg" width="30rem" height="30rem">
-        </a>
-    </div>
-
-    <div class="section" id="education">
-        <h2>Education</h2>
-
-        <div class="section_entry">
-            <h4>Northeastern University</h4>
-            <p>Aug 2019 - Dec 2021</p>
-        </div>
-
-        <div class="section_entry">
-            <h4>University of Mumbai </h4>
-            <p>Aug 2015 - May 2019</p>
-        </div>
-
-    </div>
-
-    <div id="skills">
-        <h2>Skills</h2>
-        <table>
-            <tr>
-                <th>Languages</th>
-                <td>Python, Java, JavaScript, TypeScript</td>
-            </tr>
-            <tr>
-                <th>Database</th>
-                <td>MySQL, MongoDB</td>
-            </tr>
-            <tr>
-                <th>Framework/Tools</th>
-                <td>Spring Boot, Express.js, Node.js, React, Git</td>
-            </tr>
-        </table>
-    </div>
-
-    <div class="section" id="experience">
-        <h2>Experience</h2>
-        <div class="section_entry">
-            <h4>Cogitate Technology Solutions, Atlanta</h4>
-            <p>Feb 2021 - May 2021</p>
-        </div>
-        <div class="section_description">
-            <ul>
-                <li>Designed & implemented API’s using C# and .NET framework to fetch pertinent insurance information
-                </li>
-                <li>Migrated business classes from .NET Core 3.1 to .NET 5 and resolved any framework incompatibilities
-                    and difficulties arising from change in frameworks</li>
-                <li>Wrote components in React for visualizing the information and created URL end points for API calls
-                </li>
-            </ul>
-        </div>
-
-        <div class="section_entry">
-            <h4>Northeastern University, Boston</h4>
-            <p>Sep 2020 - Dec 2020</p>
-        </div>
-        <div class="section_description">
-            <ul>
-                <li>Mentored 49 students and facilitated discussions during office hours to resolve doubts pertinent to
-                    coursework</li>
-                <li>MAssisted professor with classroom instruction and evaluated course assignments and term papers</li>
-            </ul>
-        </div>
-
-        <div class="section_entry">
-            <h4>Comcast, Atlanta</h4>
-            <p>June 2020 - July 2020</p>
-        </div>
-        <div class="section_description">
-            <ul>
-                <li>Worked on a project to improve the productivity of Comcast’s Customer Experience Representatives
-                </li>
-                <li>Streamlined user’s workflow by implementing Single Sign-On user authentication for .NET Core
-                    applications</li>
-                <li>Refactored C# code according to SOLID principles resulting in improvement of run-time performance by
-                    20%</li>
-            </ul>
-        </div>
-
-    </div>
-
-    <div class="section" id="projects">
-        <h2>Projects</h2>
-        <div class="section_entry">
-            <h4>Plagiarism Checker</h4>
-            <p>Dec 2021</p>
-        </div>
-        <div class="section_description">
-            <ul>
-                <li><i>Stack: Typescript, ReactJS, Express.js, ANTLR, Git</i></li>
-                <li>Designed a multi-file plagiarism detection application that supports languages like Java and Python
-                </li>
-                <li>Implemented two strategies for identifying similar solutions based on their Abstract Syntax Tree
-                    generated using ANTLR</li>
-                <li>Incorporated the functionality of highlighting plagiarized code between two source files</li>
-            </ul>
-        </div>
-
-        <div class="section_entry">
-            <h4>Recommender Systems for Trending YouTube Videos </h4>
-            <p>Oct 2021</p>
-        </div>
-        <div class="section_description">
-            <ul>
-                <li><i>Stack: Python, PySpark, Numpy. Pandas, Beautiful Soup</i></li>
-                <li>Cleaned video descriptions and tags to improve accuracy of the recommender systems</li>
-                <li>Implemented Collaborative and Content based filtering strategies and presented their shortcomings
-                    and advantages when applied to a real-world dataset</li>
-            </ul>
-        </div>
-
-        <div class="section_entry">
-            <h4>Health & Wellness Management System </h4>
-            <p>May 2021</p>
-        </div>
-        <div class="section_description">
-            <ul>
-                <li><i>Stack: Java, Spring Boot, MySQL, ReactJS, AWS</i></li>
-                <li>Developed a RESTful web platform that can administer and track appointments, prescriptions, and
-                    other healthcare information pertinent to a hospital such as patient’s medical history & doctor’s
-                    availability</li>
-                <li>Utilized AWS resources like Elastic Beanstalk and RDS instances for deploying the application </li>
-            </ul>
-        </div>
-
-    </div>
-
-    <script src="./assets/js/my_js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
