@@ -1,3 +1,2 @@
-My Github Pages Website
+My Digital Business Card served via Github Pages
 
-More to Come
